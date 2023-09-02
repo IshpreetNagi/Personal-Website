@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Setting up website info -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="author" content="Ishpreet Nagi">
+  <link rel="icon" type="image/png" href="images/iN - Main Logo.png" sizes="32x32" />
+  <title>Ishpreet Nagi - G1 Knowledge Exam Interface</title>
+  <!--Bringing Stylesheets-->
+  <link href="https://fonts.googleapis.com/css?family=Be Vietnam" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="styles/styles.css" rel="stylesheet" type="text/css">
+  <link href="styles/custom-responsive-styles.css" rel="stylesheet" type="text/css">
+  <!--Bringing in the interactable Javescript Scripts-->
+  <script type="text/javascript" src="scripts/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="scripts/all-plugins.js"></script>
+  <script type="text/javascript" src="scripts/plugins-activate.js"></script>
+</head>
+
+<body>
+  <!-- Navigation Side Panel -->
+  <div class = logo>
+    <a href = "index.html">
+      <img src = "images/Logo Button Image.jpg" width = "50" height = "50">
+    </a>
+  </div>
+  <a class="menu-toggle rounded" href="#">
+    <i class="fa fa-bars"></i>
+  </a>
+  <nav id="sidebar-wrapper">
+    <ul class="sidebar-bookmarks">
+      <li class="sidebar-brand">
+        <a class="smooth-scroll" href="#Header"></a>
+      </li>
+      <li class="sidebar-bookmarks-item">
+        <a href="index.html">Home</a>
+      </li>
+      <li class="sidebar-bookmarks-item">
+        <a href="weather-balloon-page.html">Stratospheric Balloon</a>
+      </li>
+      <li class="sidebar-bookmarks-item">
+        <a href="python-arcade-games-page.html">FUNLAND ARCADE</a>
+      </li>
+      <li class="sidebar-bookmarks-item">
+        <a href="council-website-page.html">U.V.Y.C Website</a>
+      </li>
+      <li class="sidebar-bookmarks-item">
+        <a href="S.A.R.V-page.html">S.A.R.V</a>
+      </li>
+      <li class="sidebar-bookmarks-item">
+        <a href="B.P.B-page.html">B.P.B</a>
+      </li>
+      <li class="sidebar-bookmarks-item">
+        <a href="B.O.O.T.A.Y-page.html">B.O.O.T.A.Y</a>
+      </li>
+      <li class="sidebar-bookmarks-item">
+        <a href="space-screen-page.html">Space Screen</a>
+      </li>
+      <li class="sidebar-bookmarks-item">
+        <a href="computer-circuits-page.html">Computer Circuits</a>
+      </li>
+      <li class="sidebar-bookmarks-item">
+        <a href="portflio-website-page.html">This Website</a>
+      </li>
+      <li class="sidebar-bookmarks-item">
+        <a class="smooth-scroll" href="#bottom">Get in Touch</a>
+      </li>
+    </ul>
+  </nav>
+  <!-- Title -->
+  <section id="Cplus" class="content-section">
+    <div class="container content-wrap text-center">
+      <h3 style = "color:white">Computer Programming</h3>
+      <h1 style = "font-weight: 100;color:white;">G1 Knowledge Exam Interface</h1>
+      <a class="btn btn-primary btn-xl text-center" href="https://github.com/IshpreetNagi/Written-Driving-Exam" target = "_blank" style="background-color: rgb(206, 47, 47);border-color:crimson">See Code</a>
+    </div>
+    <div class="overlay"></div>
+  </section>
+  <!-- Details and Pictures -->
+  <section class="content-section">
+    <div class="container text-left">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="block-heading">
+            <h2>Details</h2>
+          </div>
+          <p>
+            This program is a cumulation of my mastery of the techniques and skills within the programming language of C++. It incorporates things such as file systems, for-loops, pointers, references, functions, while-true loops, arrays, etc. The program itself is an accurate imitation of the electronic G1 car operating knowledge exam used by nearly all Ontario government-operated vehicle driving centers. This specific one mimics the aesthetic and user interface most notably seen at the ‘DriveTest’ centers located around Brampton, ON. 
+          </p>
+          <p>
+            Below one can find a more in-depth explanation regarding the program itself, its inner-workings, and some hurdles I overcame throughout its production. Please visit my Github page using the link provided above in the form of the button, to visit the code itself.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <br>
+  <section class="text-center">
+    <img src="images/C++Menu.JPG" style="width:1000px; height:600px">
+    <p style="color:lightslategray;padding-top: 20px; padding-bottom: 30px;"><i>The main menu of the program</i></p>
+  </section>
+  <section>
+    <div class="container text-left">
+      <div class="row">
+        <div class="col-lg-12">
+          <p>
+            Like mentioned before, the interface is made to mimic the exact workings of a real electronic driving knowledge exam, therefore before the user can attempt to write the exam itself, the program will prompt them to enter in some background information, such as their name and date of birth. The information is then stored on a separate text file so that it can be accessed later when required. Once the user has completed filling in all the required information fields, they can begin the exam itself. All the questions, answers, and options for the exam are stored on a separate text file which the program is constantly communicating with. The questions and their respective 4 multiple choice options along with the correct answer to the question are then pulled from the text file by the program so they can be displayed on screen. While the questions are the options to it are displayed on screen, the answers pulled from the text file are stored into a separate variable which can then be used to compare the answer entered by the user to determine if the user answered the question correctly. If they happen to choose the correct answer, they will be notified of their wise decision on screen along with a value of 1 being added to a variable that is responsible for holding the score of the user. However, if they choose unwisely, then they will still be notified of their mistake on screen along with being informed on the actual correct answer but instead of adding a value of 1 to the variable responsible for holding their score, the value will be added to a variable responsible for holding the amount of answers the user got incorrect. Much like an actual knowledge driving exam in Ontario, this one also allows the user 4 incorrect answers throughout the entire exam. Therefore, the user can answer 4 questions incorrectly but still pass the exam as a whole, however the moment the variable responsible for holding their incorrect answers surpasses the threshold of 4, the exam immediately terminates, thereby bringing the user to ‘Exam Termination’ screen. 
+          </p>
+          <p>
+            The reason the exam is able to immediately terminate is that after every question the user answers, I run a if statement to check if the wrong answer variable has  surpassed the value of 4. Since my entire code is divided up into multiple functions, I am able to easily jump in between them to effortlessly respond to the user’s decisions. Therefore when the wrong answer variable holds a value higher than 4, I am able to stop the exam function itself instantly and switch to the function that is responsible for displaying the ‘Exam Termination’ screen. The ‘Exam Termination’ screen essentially is where the user is notified that they have failed the exam, it would also them append their failed exam status into the text file right under their user information so that their exam status can be linked to their name and could be pulled to be displayed on the screen along with their information.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <br>
+  <section class="text-center">
+    <img src="images/C++Question.JPG" style="width:1000px; height:600px">
+    <p style="color:lightslategray; padding-top: 20px; padding-bottom: 30px;"><i>Having answered a question correctly</i></p>
+  </section>
+  <section>
+    <div class="container text-left">
+      <div class="row">
+        <div class="col-lg-12">
+          <p>
+            All the driving exam questions written to it are official exam questions that could be found on the actual G1 driving exam. However, the most interesting aspect of this program is that it would randomly select ten questions from the total twenty-one and would display them to the user in a randomized and different sequence every time they run the code. Not only that, but since there are a total of 21 questions and the exam randomly selects 10, the actual questions themselves can vary every time you actually attempt the exam.
+          </p>
+          <p>
+            The way the randomized system works is that I have all the possible exam questions in one text file. To display them I open up the file and read lines in the file without displaying them on screen as a way to skip those lines. Then once I have skipped the number of lines I want, I would have arrived at the number of lines in the file that hold the question I want to display, then I read those lines and display them on screen. To actually display them I make the code read up to these divider lines I have put in between questions in the file that is made up of a series of dashes, ‘---’. The way the randomizer works is that the number of lines I have to skip to get to each question, is put into a vector array from where they are randomly selected. Then that skip number is put into the loop so that many lines of the file can be skipped without being displayed so I can arrive at the lines in the file where the question I want to display is being held. Then I make the code read up and display the contents on the lines leading to the dash divider in between the questions.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <br>
+  <section class="text-center">
+    <img src = "images/C++Finder.JPG" style = "width:1000px; height:600px">
+    <p style="color:lightslategray; padding-top: 20px; padding-bottom: 30px;"><i>Finding the examinee's information in the database and then their information being displayed on screen</i></p>
+  </section>
+  <section>
+    <div class="container text-left">
+      <div class="row">
+        <div class="col-lg-12">
+          <p>
+            Once I had completed the exam system itself, I decided to add some other extra features not typically found on a driving exam just for fun. The first extra feature I added was the ability for the exam result of a person to be pulled and read. However, to add a security element to this, I made it so the user must first enter a security code before they can actually use the result finding tool. Once passed the security code, the user can simply just enter the name of the user whose result they would like to view, and then the program would simply reveal it to them if the person asked for has written that exam before. Fundamentally, the way this feature works is that since the result of the examinee is always stored in the same text file as their information right under their information, their result is forever linked with their name in the program. Thereby when the user searches for that person's name in the result finder, the program would essentially then search the entire text file where all the information of the people who wrote the exam is kept, it would search from top to bottom, comparing the contents of each line in the file with the string variable in which the name entered is stored. When the contents of the line in the file match the string variable, it would read and display all the information under the name on the screen. However, it would only display the lines of the text file up to the line which is composed of a series of asterisks. The asterisks are appended under the information of the user when it first entered when they wrote the exam as a way to divide up the users and their information in the storage text file.
+          </p>
+          <p>
+            Moving to the second extra feature, this was essentially an answer key to all the exam questions. This was also code encrypted to add a kind of security and legitimate feeling throughout the program. It is a very simple feature, when enabled, the program would extract all the exam questions and their respect answers from the text file where they are stored and then display them to the screen. However, it would only display a certain amount of lines I have entered as under the questions in the file, the user information is stored. So to avoid displaying the user information on the screen, the code is restricted to only reading the text file lines on which the exam questions and their answers are stored.
+          </p>
+          <p>
+            The third and final extra feature I added was the ability to quickly take a look at the Ontario Driver's Handbook. This was another simple feature as essentially I had created a separate text file from the already existing text file that stores the exam questions, and filled that second text file with information taken straight from the official electronic Ontario Driver’s Handbook. When selected, the program would essentially just open up the second text file storing the information from the handbook, and extract all the information from the file and append it on screen.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <br>
+  <section class="text-center">
+    <img src = "images/C++Code.JPG" style = "width:1000px; height:600px">
+    <p style="color:lightslategray; padding-top: 20px; padding-bottom: 30px;"><i>The piece of the randomizer code that fills the checking array and picks a random skip number</i></p>
+  </section>
+  <section>
+    <div class="container text-left">
+      <div class="row">
+        <div class="col-lg-12">
+          </div>
+          <p>
+            I encountered many challenges throughout the creation of this program, however by far, the most challenging hurdle I encountered was restricting the randomizer from displaying a previously displayed question during the same run of the exam. The randomizer was able to successfully display the questions in a completely random sequence, however without being properly restricted, there was nothing stopping it from constantly randomly selecting and displaying already shown questions. Questions that were already displayed on the exam, should not be displayed again in the same run. I tried for hours but could not find a way to store the numbers on which the questions have already been displayed. I was trying to put the questions that have already been displayed into arrays, so the question that is randomly selected can be compared with the numbers in the array. If they match up, a new random number would be selected. However, if they do not match up, the skip number is sent to the for loop so the file can skip to the lines that hold that question, and that skip number is stored into the checking array so the question randomly selected can not be the same as the one before. However, the way I had formatted my code, the array was constantly being reset and the numbers I was putting in it were being erased. However, after putting in enough hours, I was able to finally uncover the solution, to my surprise, it was actually a combination of the array method with a data file.
+          </p>
+          <p>
+            The solution I came up with was that once a random number to skip the lines in the text file is selected, before it is sent to the for-loop where it would actually be used, it is compared to an array that holds all the skip values that have already been displayed. If the value is chosen is equal to the value in the array, the code will randomly select a new skip value. However, if the skip value does not equal to value on the array, the code will keep going and send that skip value to the for-loop but also add that skip value to the data file from which the int array used for checking previously displayed questions is filled from.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <br>
+  <!-- Page End Footer -->
+  <footer id="bottom" class="footer text-center">
+    <div class="container">
+      <ul class="list-inline">
+        <li class="list-inline-item">
+          <a class="c-link rounded-circle text-white mr-3" href="https://www.behance.net/ishpreetnagi" target="_blank">
+              <i class="fa fa-behance" aria-hidden="true"></i>
+            </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="c-link rounded-circle text-white mr-3" href="https://www.linkedin.com/in/ishpreet-nagi-b609b1180/" target="_blank">
+              <i class="fa fa-linkedin" aria-hidden="true"></i>
+            </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="c-link rounded-circle text-white" href="https://github.com/IshpreetNagi" target="_blank">
+              <i class="fa fa-github" aria-hidden="true"></i>
+            </a>
+        </li>
+      </ul>
+      <p class="text-muted small mb-0">Copyright © Ishpreet Nagi 2023</p>
+      <p class="text-muted small mb-0" style="font-size: 14px;">Let's talk: <a href="mailto:ishpreetnagi@gmail.com" target="_blank">ishpreetnagi@gmail.com</p>
+    </div>
+  </footer>
+</body>
+</html>

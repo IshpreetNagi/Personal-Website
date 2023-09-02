@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Setting up website info -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="author" content="Ishpreet Nagi">
+  <link rel="icon" type="image/png" href="images/iN - Main Logo.png" sizes="32x32" />
+  <title>Ishpreet Nagi - FUNLAND ARCADE</title>
+  <!--Bringing Stylesheets-->
+  <link href="https://fonts.googleapis.com/css?family=Be Vietnam" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="styles/styles.css" rel="stylesheet" type="text/css">
+  <link href="styles/custom-responsive-styles.css" rel="stylesheet" type="text/css">
+  <!--Bringing in the interactable Javescript Scripts-->
+  <script type="text/javascript" src="scripts/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="scripts/all-plugins.js"></script>
+  <script type="text/javascript" src="scripts/plugins-activate.js"></script>
+</head>
+
+<body>
+  <!-- Navigation Side Panel -->
+  <div class = logo>
+    <a href = "index.html">
+      <img src = "images/Logo Button Image.jpg" width = "50" height = "50">
+    </a>
+  </div>
+  <a class="menu-toggle rounded" href="#">
+    <i class="fa fa-bars"></i>
+  </a>
+  <nav id="sidebar-wrapper">
+    <ul class="sidebar-bookmarks">
+      <li class="sidebar-brand">
+        <a class="smooth-scroll" href="#Header"></a>
+      </li>
+      <li class="sidebar-bookmarks-item">
+        <a href="index.html">Home</a>
+      </li>
+      <li class="sidebar-bookmarks-item">
+        <a href="weather-balloon-page.html">Stratospheric Balloon</a>
+      </li>
+      <li class="sidebar-bookmarks-item">
+        <a href="c++-g1-interface-page.html">G1 Exam Interface</a>
+      </li>
+      <li class="sidebar-bookmarks-item">
+        <a href="council-website-page.html">U.V.Y.C Website</a>
+      </li>
+      <li class="sidebar-bookmarks-item">
+        <a href="S.A.R.V-page.html">S.A.R.V</a>
+      </li>
+      <li class="sidebar-bookmarks-item">
+        <a href="B.P.B-page.html">B.P.B</a>
+      </li>
+      <li class="sidebar-bookmarks-item">
+        <a href="B.O.O.T.A.Y-page.html">B.O.O.T.A.Y</a>
+      </li>
+      <li class="sidebar-bookmarks-item">
+        <a href="space-screen-page.html">Space Screen</a>
+      </li>
+      <li class="sidebar-bookmarks-item">
+        <a href="computer-circuits-page.html">Computer Circuits</a>
+      </li>
+      <li class="sidebar-bookmarks-item">
+        <a href="portflio-website-page.html">This Website</a>
+      </li>
+      <li class="sidebar-bookmarks-item">
+        <a class="smooth-scroll" href="#bottom">Contact Me</a>
+      </li>
+    </ul>
+  </nav>
+  <!-- Title -->
+  <section id="Python" class="content-section">
+    <div class="container content-wrap text-center">
+      <h3 style = "color:white">Computer Programming</h3>
+      <h1 style = "font-weight: 100;color:white">FUNLAND ARCADE</h1>
+      <a class="btn btn-primary btn-xl text-center" href="https://github.com/IshpreetNagi/Arcade-Game-Emulator" target = "_blank" style="background-color: rgb(169, 73, 189);border-color: blueviolet;">See Code</a>
+    </div>
+    <div class="overlay"></div>
+  </section>
+  <!-- Details and Pictures -->
+  <section class="content-section">
+    <div class="container text-left">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="block-heading">
+            <h2>Details</h2>
+          </div>
+          <p>
+            This project embodies my thorough and extensive knowledge and understanding of the language where I started my programming journey, Python. The project is essentially an arcade emulator and is composed of three games of varying variety, each with its own scoring system, sounds, pictures, style, music, start screen, and end screen. The games themselves are a quiz game, a number guessing game, and imitation of the widely popular arcade classic, Whack-a-mole.
+          </p>
+          <p>
+            Below I expand on the games themselves while also touching upon their inner workings and some challenges I was met with through its construction. To view the source code of the arcade emulator, please visit the Github regarding this project using the button above. 
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <br>
+  <section class="text-center">
+    <img src = "images/ArcadeQuestion.JPG" style = "width:850px; height:770px">
+    <p style="color:lightslategray; padding-top: 20px; padding-bottom: 30px;"><i>Question interface from the Quiz Show game</i></p>
+  </section>
+  <section>
+    <div class="container text-left">
+      <div class="row">
+        <div class="col-lg-12">
+          <p>
+            Throughout this entire program, your mouse is the main tool used to perform all actions. Fundamentally, the screen of the game is made to be a grid, and your mouse’s position is being tracked on it at all times. The position of your mouse on the grid is stored in three variables, one holding the coordinates on the x-axis, the other on the y-axis, and the third is responsible for holding the clicking action of the mouse. These variables are then used to determine if the mouse is within the invisible hitbox parameters that are created on top of objects such as circles and squares. These invisible hitbox parameters give the objects the characteristics of buttons, thus allowing the user to interact with the program through the use of their mouse click.
+          </p>
+          <p>
+            Let’s commence with discussing the ‘Quiz-Show’ game. In that game the user is essentially asked 6 questions and are rewarded a point with each question they get correct. This is essentially a multiple choice quiz, as along with each question, the user is greeted with 4 possible answer options. The answer choices are displayed on 4 interactable boxes that are programmed to be buttons, thus allowing the user to simply click on the answer they think is correct with the help of their mouse. Then according to the option the user chose, the respective if or elif-statement will be followed. Selecting the correct answer will trigger an if-statement, that will complete the following actions, adding a value of one to the variable that holds the number of questions you answered correctly, and playing a cheering sound effect to inform the user on their correct decision. However, selecting an incorrect option, will result in the according elif-statement being triggered, thus resulting in nothing being added to the variable that holds the number of questions you got right, therefore showing you got the question wrong, along with the playing of a ‘booing’ sound effect to notify the user that they choose the incorrect answer. With each question, there is a 10-second timer, prompting the user to answer the question within the time frame. Failing to do so will result in the question being marked incorrect and the user losing that point. At the end of the game, the number of questions you answered correctly being held by the variable is displayed on the screen, thereby showing the user their final score out of a total of 6, while also greeting the user with two interactable button options, letting them choose between returning to the main menu to select a new game, or replay the quiz game.
+          </p>
+          <p>
+            Moving on to the second game, the number guessing game. This program will prompt the user to think of any whole number between 1 and 100, and then will continue to try to guess that number. When presented with the guessed number, the user would select a button telling the program either the guessed number is the number is higher than your number or lower. To start, the program would first automatically generate a random number to just establish a kind of limit, which it would then use to make its following guesses. If the user clicks the button telling the code that it guessed the correct number, then the game essentially ends and you are taken to the end screen. However, if the user is prompted that the guessed number is too high or too low, then the code will learn from that response and adjust the range of numbers it would guess in the future appropriately. For example, if the program first guesses 75 and the user answers that the number is too high, then the program will set its maximum parameters to 75 and will not guess a number higher than 75. If the program then guesses 34 for example, and the user answers that 34 is too low, then the code will set 34 as its minimum number and will only guess numbers higher than 34 but less than 75. Then as it guesses more numbers and the user continues to give it more information about the number they are thinking of, the program will keep adjusting its max and min values appropriately until it finally arrives at the number you are thinking of. This program is essentially a very basic form of a machine learning algorithm, it was more of me trying to enter the A.I world a little to explore its inner workings and all the possibilities it has to offer.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <br>
+  <section class="text-center">
+    <img src = "images/Arcadeguessit.JPG" style = "width:1000px; height:600px">
+    <p style="color:lightslategray; padding-top: 20px; padding-bottom: 30px;"><i>Interface of the Guess-it game</i></p>
+  </section>
+  <section>
+    <div class="container text-left">
+      <div class="row">
+        <div class="col-lg-12">
+          <p>
+            The third and last game in the program is a Whack-a-Mole imitation game called, “Gopher Game”. Much like whack-a-mole, the objective of the game is to catch the gopher by clicking on him when it randomly appears out of one of four possible gopher holes on the ground. Once the gopher appears on the screen, the user has exactly one second to quickly click on the gopher thus catching it, failing to do so will arrive the user at the end screen, where much like the other end screens, the user can then choose to either return to the main menu or reply the gopher game. In order to win, the user would have to successfully click on the gopher 3 times in a row. Essentially the way the game works is that I have created a invisible hitbox for the gopher to be the exact same size as the gopher picture, and whatever random coordinates the gopher picture appears on the screen, at the same coordinates the gopher hitbox would appear, thus giving the gopher the same interactable characteristics as any other interactable buttons found throughout this program. This way when the mouse is clicked, and if the coordinates of the mouse on the screen are within the coordinate parameters of the gopher button, it would register that as a catch. Furthermore the coordinates of where the gopher will appear on screen are not just randomly generated to be so that the gopher could appear anywhere on the screen. The randomized coordinate generator has restrictions to it making it so the gopher would only appear within the positions of the 4 gopher holes, thus actually giving the user an idea of where the gopher would possibly pop-up. The point received upon catching the gopher symbolizes the number of times the user has caught the gopher and is stored in a variable. Once that variable holds a value that is equal to 3, an if-statement is triggered, thus resulting in the game to end and the user to be brought to the winning screen.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <br>
+  <section class="text-center">
+    <img src = "images/Arcadegopher.JPG" style = "width:770px; height:770px">
+    <p style="color:lightslategray; padding-top: 20px; padding-bottom: 30px;"><i>Interface of the Gopher Game</i></p>
+  </section>
+  <section>
+    <div class="container text-left">
+      <div class="row">
+        <div class="col-lg-12">
+          <p>
+            The most challenging task I encountered while creating this program was the creation of the hitboxes around the interactable objects. Essentially it was a lot of guess-and-check while creating the hitboxes, I had to first guess the coordinate range of where each of the objects was in relation to the game screen. Once I had discovered that I have to find the area of the object so that I could understand how many coordinates I needed to highlight so that it can actually be turned into an interactable object. After making my assumptions on all the coordinates, I would have to continually run the code and make the appropriate adjustments.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <br>
+  <!-- Page End Footer -->
+  <footer id="bottom" class="footer text-center">
+    <div class="container">
+      <ul class="list-inline">
+        <li class="list-inline-item">
+          <a class="python-link rounded-circle text-white mr-3" href="https://www.behance.net/ishpreetnagi" target="_blank">
+              <i class="fa fa-behance" aria-hidden="true"></i>
+            </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="python-link rounded-circle text-white mr-3" href="https://www.linkedin.com/in/ishpreet-nagi-b609b1180/" target="_blank">
+              <i class="fa fa-linkedin" aria-hidden="true"></i>
+            </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="python-link rounded-circle text-white" href="https://github.com/IshpreetNagi" target="_blank">
+              <i class="fa fa-github" aria-hidden="true"></i>
+            </a>
+        </li>
+      </ul>
+      <p class="text-muted small mb-0">Copyright © Ishpreet Nagi 2023</p>
+      <p class="text-muted small mb-0" style="font-size: 14px;">Let's talk: <a href="mailto:ishpreetnagi@gmail.com" target="_blank">ishpreetnagi@gmail.com</p>
+    </div>
+  </footer>
+</body>
+</html>

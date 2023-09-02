@@ -1,0 +1,782 @@
+/*This page included specific adjustments made to sizes of some page elements to
+allow for them to be properly resized for different screens*/
+
+/*Global Changes*/
+@media (max-width: 575px) {
+  .content-section {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .logo i {
+    font-size: 40px;
+  }
+
+  /* Index Page */
+  #Title .content-wrap h1 {
+    font-size: 36px;
+  }
+  #Title .content-wrap h3 {
+    font-size: 20px;
+  }
+
+  /* Python Arcade Games Information Page */
+  #Python .content-wrap h1 {
+    font-size: 36px;
+  }
+  #Python .content-wrap h3 {
+    font-size: 20px;
+  }
+
+  /* C++ G1 Exam Interface Information Page */
+  #Cplus .content-wrap h1 {
+    font-size: 36px;
+  }
+  #Cplus .content-wrap h3 {
+    font-size: 20px;
+  }
+
+  /* Stratospheric Balloon Information Page */
+  #W .content-wrap h1 {
+    font-size: 36px;
+  }
+  #W .content-wrap h3 {
+    font-size: 20px;
+  }
+
+  /* U.V.Y.C Website Information Page */
+  #council .content-wrap h1 {
+    font-size: 36px;
+  }
+  #council .content-wrap h3 {
+    font-size: 20px;
+  }
+
+  /* This HTML and Javascript Website Information Page */
+  #website .content-wrap h1 {
+    font-size: 36px;
+  }
+  #website .content-wrap h3 {
+    font-size: 20px;
+  }
+
+  /* Hackathon SARV Project Information Page */
+  #SARV .content-wrap h1 {
+    font-size: 36px;
+  }
+  #SARV .content-wrap h3 {
+    font-size: 20px;
+  }
+
+  /* Hackathon BPB Project Information Page */
+  #BPB .content-wrap h1 {
+    font-size: 36px;
+  }
+  #BPB .content-wrap h3 {
+    font-size: 20px;
+  }
+
+  /* Hackathon The Space Screen Project Information Page */
+  #space .content-wrap h1 {
+    font-size: 36px;
+  }
+  #space .content-wrap h3 {
+    font-size: 20px;
+  }
+
+  /* Hackathon B.O.O.T.A.Y Project Information Page */
+  #box .content-wrap h1 {
+    font-size: 36px;
+  }
+  #box .content-wrap h3 {
+    font-size: 20px;
+  }
+
+  /* Circuit Creations Information Page */
+  #hardware .content-wrap h1 {
+    font-size: 36px;
+  }
+  #hardware .content-wrap h3 {
+    font-size: 20px;
+  }
+
+  /* Content Section Changes */
+  .btn-xl {
+    padding: 15px 30px;
+  }
+  .content-section-heading h2 {
+    font-size: 30px;
+  }
+
+  /* Project Section Changes */
+  #Projects .Projects-wrapper .each-Projects {
+    float: none;
+    margin: 0 auto 20px;
+    width: 100%;
+    display: block;
+  }
+
+  /* Footer Section Changes */
+
+  /* Index Pages */
+  footer.footer .social-link {
+    height: 50px;
+    width: 50px;
+    font-size: 18px;
+  }
+
+  /* Python Arcade Games Information Page */
+  footer.footer .python-link {
+    height: 50px;
+    width: 50px;
+    font-size: 18px;
+  }
+
+  /* C++ G1 Exam Interface Information Page */
+  footer.footer .c-link {
+    height: 50px;
+    width: 50px;
+    font-size: 18px;
+  }
+
+  /* Stratospheric Balloon Information Page */ 
+  footer.footer .w {
+    height: 50px;
+    width: 50px;
+    font-size: 18px;
+  }
+
+  /* U.V.Y.C Website Information Page */
+  footer.footer .council {
+    height: 50px;
+    width: 50px;
+    font-size: 18px;
+  }
+
+  /* This HTML and Javascript Website Information Page */
+  footer.footer .website {
+    height: 50px;
+    width: 50px;
+    font-size: 18px;
+  }
+
+  /* Hackathon SARV Project Information Page */
+  footer.footer .SARV {
+    height: 50px;
+    width: 50px;
+    font-size: 18px;
+  }
+
+  /* Hackathon BPB Project Information Page */
+  footer.footer .BPB {
+    height: 50px;
+    width: 50px;
+    font-size: 18px;
+  }
+
+  /* Hackathon The Space Screen Project Information Page */
+  footer.footer .space {
+    height: 50px;
+    width: 50px;
+    font-size: 18px;
+  }
+
+  /* Hackathon B.O.O.T.A.Y Project Information Page */
+  footer.footer .box {
+    height: 50px;
+    width: 50px;
+    font-size: 18px;
+  }
+
+  /* Circuit Creations Information Page */
+  footer.footer .hardware {
+    height: 50px;
+    width: 50px;
+    font-size: 18px;
+  }
+
+  .owl-nav {
+    display: none !important; 
+  }
+}
+
+/* Below are just the changes for even a bigger variety of device screens on phones! */
+
+/*Global Changes*/
+@media (min-width: 576px) and (max-width: 767px) {
+  .logo i {
+    font-size: 40px;
+  }
+  .content-section {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+
+  /* Index Page */
+  #Title .content-wrap h1 {
+    font-size: 36px;
+  }
+  #Title .content-wrap h3 {
+    font-size: 20px;
+  }
+
+  /* Python Arcade Games Information Page */
+  #Python .content-wrap h1 {
+    font-size: 36px;
+  }
+  #Python .content-wrap h3 {
+    font-size: 20px;
+  }
+
+  /* C++ G1 Exam Interface Information Page */
+  #Cplus .content-wrap h1 {
+    font-size: 36px;
+  }
+  #Cplus .content-wrap h3 {
+    font-size: 20px;
+  }
+
+  /* Stratospheric Balloon Information Page */
+  #W .content-wrap h1 {
+    font-size: 36px;
+  }
+  #W .content-wrap h3 {
+    font-size: 20px;
+  }
+
+  /* U.V.Y.C Website Information Page */
+  #council .content-wrap h1 {
+    font-size: 36px;
+  }
+  #council .content-wrap h3 {
+    font-size: 20px;
+  }
+
+  /* This HTML and Javascript Website Information Page */
+  #website .content-wrap h1 {
+    font-size: 36px;
+  }
+  #website .content-wrap h3 {
+    font-size: 20px;
+  }
+
+  /* Hackathon SARV Project Information Page */
+  #SARV .content-wrap h1 {
+    font-size: 36px;
+  }
+  #SARV .content-wrap h3 {
+    font-size: 20px;
+  }
+
+  /* Hackathon BPB Project Information Page */
+  #BPB .content-wrap h1 {
+    font-size: 36px;
+  }
+  #BPB .content-wrap h3 {
+    font-size: 20px;
+  }
+
+  /* Hackathon The Space Screen Project Information Page */
+  #space .content-wrap h1 {
+    font-size: 36px;
+  }
+  #space .content-wrap h3 {
+    font-size: 20px;
+  }
+
+  /* Hackathon B.O.O.T.A.Y Project Information Page */
+  #box .content-wrap h1 {
+    font-size: 36px;
+  }
+  #box .content-wrap h3 {
+    font-size: 20px;
+  }
+
+  /* Circuit Creations Information Page */
+  #hardware .content-wrap h1 {
+    font-size: 36px;
+  }
+  #hardware .content-wrap h3 {
+    font-size: 20px;
+  }
+
+  /* Content Section Changes */
+  .btn-xl {
+    padding: 15px 30px;
+  }
+  .content-section-heading h2 {
+    font-size: 30px;
+  }
+
+  /* Projects Section Changes */
+  #Projects .Projects-wrapper .each-Projects {
+    float: none;
+    margin: 0 auto 20px;
+    width: 100%;
+    display: block;
+  }
+
+  /* Footer Section Changes */
+
+  /* Index Page */
+  footer.footer .social-link {
+    height: 50px;
+    width: 50px;
+    font-size: 18px;
+  }
+
+  /* Python Arcade Games Information Page */
+  footer.footer .python-link {
+    height: 50px;
+    width: 50px;
+    font-size: 18px;
+  }
+
+  /* C++ G1 Exam Interface Information Page */
+  footer.footer .c-link {
+    height: 50px;
+    width: 50px;
+    font-size: 18px;
+  }
+
+  /* Stratospheric Balloon Information Page */ 
+  footer.footer .w {
+    height: 50px;
+    width: 50px;
+    font-size: 18px;
+  }
+
+  /* U.V.Y.C Website Information Page */
+  footer.footer .council {
+    height: 50px;
+    width: 50px;
+    font-size: 18px;
+  }
+
+  /* This HTML and Javascript Website Information Page */
+  footer.footer .website {
+    height: 50px;
+    width: 50px;
+    font-size: 18px;
+  }
+
+  /* Hackathon SARV Project Information Page */
+  footer.footer .SARV {
+    height: 50px;
+    width: 50px;
+    font-size: 18px;
+  }
+
+  /* Hackathon BPB Project Information Page */
+  footer.footer .BPB {
+    height: 50px;
+    width: 50px;
+    font-size: 18px;
+  }
+
+  /* Hackathon The Space Screen Project Information Page */
+  footer.footer .space {
+    height: 50px;
+    width: 50px;
+    font-size: 18px;
+  }
+
+  /* Hackathon B.O.O.T.A.Y Project Information Page */
+  footer.footer .box {
+    height: 50px;
+    width: 50px;
+    font-size: 18px;
+  }
+
+  /* Circuit Creations Information Page */
+  footer.footer .hardware {
+    height: 50px;
+    width: 50px;
+    font-size: 18px;
+  }
+
+  .owl-nav {
+    display: none !important; 
+  }
+}
+
+/* Below are just the changes for medium sized screens such as tablets */
+
+/*Global Changes*/
+@media (min-width: 768px) and (max-width: 991px) {
+  .content-section {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+
+  /* Index Page */
+  #Title .content-wrap h1 {
+    font-size: 40px;
+  }
+  #Title .content-wrap h3 {
+    font-size: 24px;
+  }
+
+  /* Python Arcade Games Information Page */
+  #Python .content-wrap h1 {
+    font-size: 40px;
+  }
+  #Python .content-wrap h3 {
+    font-size: 24px;
+  }
+
+  /* C++ G1 Exam Interface Information Page */
+  #Cplus .content-wrap h1 {
+    font-size: 40px;
+  }
+  #Cplus .content-wrap h3 {
+    font-size: 24px;
+  }
+
+  /* Stratospheric Balloon Information Page */
+  #W .content-wrap h1 {
+    font-size: 40px;
+  }
+  #W .content-wrap h3 {
+    font-size: 24px;
+  }
+
+  /* U.V.Y.C Website Information Page */
+  #council .content-wrap h1 {
+    font-size: 40px;
+  }
+  #council .content-wrap h3 {
+    font-size: 24px;
+  }
+
+  /* This HTML and Javascript Website Information Page */
+  #website .content-wrap h1 {
+    font-size: 40px;
+  }
+  #website .content-wrap h3 {
+    font-size: 24px;
+  }
+
+  /* Hackathon SARV Project Information Page */
+  #SARV .content-wrap h1 {
+    font-size: 40px;
+  }
+  #SARV .content-wrap h3 {
+    font-size: 24px;
+  }
+
+  /* Hackathon BPB Project Information Page */
+  #BPB .content-wrap h1 {
+    font-size: 40px;
+  }
+  #BPB .content-wrap h3 {
+    font-size: 24px;
+  }
+
+  /* Hackathon The Space Screen Project Information Page */
+  #space .content-wrap h1 {
+    font-size: 40px;
+  }
+  #space .content-wrap h3 {
+    font-size: 24px;
+  }
+
+  /* Hackathon B.O.O.T.A.Y Project Information Page */
+  #box .content-wrap h1 {
+    font-size: 40px;
+  }
+  #box .content-wrap h3 {
+    font-size: 24px;
+  }
+
+  /* Circuit Creations Information Page */
+  #hardware .content-wrap h1 {
+    font-size: 40px;
+  }
+  #hardware .content-wrap h3 {
+    font-size: 24px;
+  }
+
+  /* Content Section Changes */
+  .btn-xl {
+    padding: 20px 30px;
+  }
+  .content-section-heading h2 {
+    font-size: 30px;
+  }
+
+  /* Footer Section Changes */
+
+  /* Index Page */
+  footer.footer .social-link {
+    height: 50px;
+    width: 50px;
+    font-size: 18px;
+  }
+
+  /* Python Arcade Games Information Page */
+  footer.footer .python-link {
+    height: 50px;
+    width: 50px;
+    font-size: 18px;
+  }
+
+  /* C++ G1 Exam Interface Information Page */
+  footer.footer .c-link {
+    height: 50px;
+    width: 50px;
+    font-size: 18px;
+  }
+
+  /* Stratospheric Balloon Information Page */ 
+  footer.footer .w {
+    height: 50px;
+    width: 50px;
+    font-size: 18px;
+  }
+
+  /* U.V.Y.C Website Information Page */
+  footer.footer .council {
+    height: 50px;
+    width: 50px;
+    font-size: 18px;
+  }
+
+  /* This HTML and Javascript Website Information Page */
+  footer.footer .website {
+    height: 50px;
+    width: 50px;
+    font-size: 18px;
+  }
+
+  /* Hackathon SARV Project Information Page */
+  footer.footer .SARV {
+    height: 50px;
+    width: 50px;
+    font-size: 18px;
+  }
+
+  /* Hackathon BPB Project Information Page */
+  footer.footer .BPB {
+    height: 50px;
+    width: 50px;
+    font-size: 18px;
+  }
+
+  /* Hackathon The Space Screen Project Information Page */
+  footer.footer .space {
+    height: 50px;
+    width: 50px;
+    font-size: 18px;
+  }
+
+  /* Hackathon B.O.O.T.A.Y Project Information Page */
+  footer.footer .box {
+    height: 50px;
+    width: 50px;
+    font-size: 18px;
+  }
+
+  /* Circuit Creations Information Page */
+  footer.footer .hardware {
+    height: 50px;
+    width: 50px;
+    font-size: 18px;
+  }
+
+  .owl-nav {
+    display: none !important; 
+  }
+}
+
+/* Below are just the changes for big device screens such as desktops */
+
+/*Global Changes*/
+@media (min-width: 992px) and (max-width: 1199px) {
+  .content-section {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+
+  /* Index Page */
+  #Title .content-wrap h1 {
+    font-size: 40px;
+  }
+  #Title .content-wrap h3 {
+    font-size: 24px;
+  }
+
+  /* Python Arcade Games Information Page */
+  #Python .content-wrap h1 {
+    font-size: 40px;
+  }
+  #Python .content-wrap h3 {
+    font-size: 24px;
+  }
+
+  /* C++ G1 Exam Interface Information Page */
+  #Cplus .content-wrap h1 {
+    font-size: 40px;
+  }
+  #Cplus .content-wrap h3 {
+    font-size: 24px;
+  }
+
+  /* Stratospheric Balloon Information Page */
+  #W .content-wrap h1 {
+    font-size: 40px;
+  }
+  #W .content-wrap h3 {
+    font-size: 24px;
+  }
+
+  /* U.V.Y.C Website Information Page */
+  #council .content-wrap h1 {
+    font-size: 40px;
+  }
+  #council .content-wrap h3 {
+    font-size: 24px;
+  }
+
+  /* This HTML and Javascript Website Information Page */
+  #website .content-wrap h1 {
+    font-size: 40px;
+  }
+  #website .content-wrap h3 {
+    font-size: 24px;
+  }
+
+  /* Hackathon SARV Project Information Page */
+  #SARV .content-wrap h1 {
+    font-size: 40px;
+  }
+  #SARV .content-wrap h3 {
+    font-size: 24px;
+  }
+
+  /* Hackathon BPB Project Information Page */
+  #BPB .content-wrap h1 {
+    font-size: 40px;
+  }
+  #BPB .content-wrap h3 {
+    font-size: 24px;
+  }
+
+  /* Hackathon The Space Screen Project Information Page */
+  #space .content-wrap h1 {
+    font-size: 40px;
+  }
+  #space .content-wrap h3 {
+    font-size: 24px;
+  }
+
+  /* Hackathon B.O.O.T.A.Y Project Information Page */
+  #box .content-wrap h1 {
+    font-size: 40px;
+  }
+  #box .content-wrap h3 {
+    font-size: 24px;
+  }
+
+  /* Circuit Creations Information Page */
+  #hardware .content-wrap h1 {
+    font-size: 40px;
+  }
+  #hardware .content-wrap h3 {
+    font-size: 24px;
+  }
+
+  /* Content Section Changes */
+  .btn-xl {
+    padding: 20px 30px;
+  }
+  .content-section-heading h2 {
+    font-size: 30px;
+  }
+
+  /* Footer Section Changes */
+
+  /* Index Page */
+  footer.footer .social-link {
+    height: 50px;
+    width: 50px;
+    font-size: 18px;
+  }
+
+  /* Python Arcade Games Information Page */
+  footer.footer .python-link {
+    height: 50px;
+    width: 50px;
+    font-size: 18px;
+  }
+
+  /* C++ G1 Exam Interface Information Page */
+  footer.footer .c-link {
+    height: 50px;
+    width: 50px;
+    font-size: 18px;
+  }
+
+  /* Stratospheric Balloon Information Page */ 
+  footer.footer .w {
+    height: 50px;
+    width: 50px;
+    font-size: 18px;
+  }
+
+  /* U.V.Y.C Website Information Page */
+  footer.footer .council {
+    height: 50px;
+    width: 50px;
+    font-size: 18px;
+  }
+
+  /* This HTML and Javascript Website Information Page */
+  footer.footer .website {
+    height: 50px;
+    width: 50px;
+    font-size: 18px;
+  }
+
+  /* Hackathon SARV Project Information Page */
+  footer.footer .SARV {
+    height: 50px;
+    width: 50px;
+    font-size: 18px;
+  }
+
+  /* Hackathon BPB Project Information Page */
+  footer.footer .BPB {
+    height: 50px;
+    width: 50px;
+    font-size: 18px;
+  }
+
+  /* Hackathon The Space Screen Project Information Page */
+  footer.footer .space {
+    height: 50px;
+    width: 50px;
+    font-size: 18px;
+  }
+
+  /* Hackathon B.O.O.T.A.Y Project Information Page */
+  footer.footer .box {
+    height: 50px;
+    width: 50px;
+    font-size: 18px;
+  }
+
+  /* Circuit Creations Information Page */
+  footer.footer .hardware {
+    height: 50px;
+    width: 50px;
+    font-size: 18px;
+  }
+
+  .owl-nav {
+    display: none !important; 
+  }
+}
+
+/* Below are just the changes for extra large devices */
+
+@media (min-width: 1200px) {}
