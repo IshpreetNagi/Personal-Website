@@ -1,4 +1,7 @@
 # Personal-Website V1
-I programmed my own website using my acquired web development skills in HTML, and CSS, and experience in Javascript. The construction of this website set the foundation for me to build off and expand on it for it to blossom into a platform where I could assemble all my pieces of work and showcase who I am as a person. All while allowing me to truly showcase my skills, abilities, and interests in the various fields of technology.
+This website acted as my digital portfolio, allowing me to showcase my personality, achievements, and skillset in an accessible manner. It is programmed using vanilla HTML and CSS, with some interactive elements coming from JavaScript. It was my first endeavor into front-end web development, but certainly not my last. I have recently taken the deployment of this site offline as I work on version 2, which would take advantage of the skills and experience I have acquired since. 
 
-NOTE: This website is still a work in progress, multiple-screen support is yet to be implemented, and I am working on bringing it up to date with my current projects. If you encounter any bugs or issues with the site, feel free to notify me about it at: ishpreetnagi@gmail.com.
+## Development Requirements
+- HTML >= 5
+- CSS >= 4.15
+- JavaScript >= 1.8
